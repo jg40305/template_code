@@ -1,0 +1,7 @@
+{
+    "client_id": "",
+    "client_secret": "",
+    "line_notify_bot": "https://notify-bot.line.me",
+    "line_notify_api": "https://notify-api.line.me",
+    "redirect_uri": ""
+}
