@@ -1,0 +1,6 @@
+*.exe
+*.zip
+*.csv
+!chisquare.csv
+!sample.csv
+venv/
