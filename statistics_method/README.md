@@ -1,0 +1,18 @@
+## 統計方法 Python 範例
+- pip install scipy
+- anova.py
+  - [同質性檢定 (levene)](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.levene.html)
+  - [單因子 ANOVA 檢定 (f_oneway)](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.f_oneway.html)
+- chi_square_test.py
+  - [交叉表（關聯表)](https://pandas.pydata.org/docs/reference/api/pandas.crosstab.html)
+  - [卡方檢定](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.chi2_contingency.html)
+- linear_regression.py
+  - [線性回歸](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)
+- pearson_correlation.py
+  - [皮爾森相關係數](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.pearsonr.html)
+- t_test.py
+  - [獨立樣本 t 檢定](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ttest_ind.html)
+  - [成對樣本 t 檢定](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ttest_rel.html)
+    - 1兩組成對樣本 或 2單一樣本重複量測
+  - [單一樣本 t 檢定](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ttest_1samp.html)
+    - 只有一組資料做假設檢定
